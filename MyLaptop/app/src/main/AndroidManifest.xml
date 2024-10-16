@@ -12,7 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyLaptop"
         tools:targetApi="31">
-        <activity
+        <activity>
+            android:UsersCleartextTraffic="true">
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
