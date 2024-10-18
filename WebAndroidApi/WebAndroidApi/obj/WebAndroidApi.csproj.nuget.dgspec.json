@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dev\\Desktop\\WebAndroidApi\\WebAndroidApi\\WebAndroidApi.csproj": {}
+    "C:\\Users\\dev\\Android\\WebAndroidApi\\WebAndroidApi\\WebAndroidApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dev\\Desktop\\WebAndroidApi\\WebAndroidApi\\WebAndroidApi.csproj": {
+    "C:\\Users\\dev\\Android\\WebAndroidApi\\WebAndroidApi\\WebAndroidApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dev\\Desktop\\WebAndroidApi\\WebAndroidApi\\WebAndroidApi.csproj",
+        "projectUniqueName": "C:\\Users\\dev\\Android\\WebAndroidApi\\WebAndroidApi\\WebAndroidApi.csproj",
         "projectName": "WebAndroidApi",
-        "projectPath": "C:\\Users\\dev\\Desktop\\WebAndroidApi\\WebAndroidApi\\WebAndroidApi.csproj",
+        "projectPath": "C:\\Users\\dev\\Android\\WebAndroidApi\\WebAndroidApi\\WebAndroidApi.csproj",
         "packagesPath": "C:\\Users\\dev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dev\\Desktop\\WebAndroidApi\\WebAndroidApi\\obj\\",
+        "outputPath": "C:\\Users\\dev\\Android\\WebAndroidApi\\WebAndroidApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,9 +45,31 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Bogus": {
+              "target": "Package",
+              "version": "[35.6.1, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            },
+            "SixLabors.ImageSharp": {
+              "target": "Package",
+              "version": "[3.1.5, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

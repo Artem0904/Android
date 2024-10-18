@@ -31,6 +31,6 @@ namespace WebAndroidApi.Controllers
         public async Task<IActionResult> GetList()
         {
             return Ok(_categories);
-        } 
+        }
     }
 }
