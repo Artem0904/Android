@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OQgIkuVj0OrVUhefBltjbKCKDhB3RrSODU9qdOggDtpJfmSDUhCGQX54xVROGRdmqe9nmxkXOplz9wzVkDjwkA==",
+  "dgSpecHash": "7D7Vs9jDmFF8YWjPJ3rDlbANruaiMLAy1OYjB/1BSpqew7Z48Abmqhmd8i7cH4LOqW1E9JUmSjAXyHNd++B8Ow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dev\\Android\\WebAndroidApi\\WebAndroidApi\\WebAndroidApi.csproj",
+  "projectFilePath": "C:\\Users\\dev\\Desktop\\Android\\WebAndroidApi\\WebAndroidApi\\WebAndroidApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dev\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\dev\\.nuget\\packages\\bogus\\35.6.1\\bogus.35.6.1.nupkg.sha512",
